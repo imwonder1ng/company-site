@@ -1,29 +1,29 @@
 @font-face {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat, Arial ';
     font-style: regular;
     font-weight: 400;
-    src: url("/assets/fonts/Montserrat/static/Montserrat-Regular.ttf") format("ttf");
+    src: url("../assets/fonts/Montserrat/static/Montserrat-Regular.ttf") format("ttf");
 }
 
 @font-face {
     font-family: 'Montserrat';
     font-style: semibold;
     font-weight: 600;
-    src: url("/assets/fonts/Montserrat/static/Montserrat-SemiBold.ttf") format("ttf");
+    src: url("../assets/fonts/Montserrat/static/Montserrat-SemiBold.ttf") format("ttf");
 }
 
 @font-face {
     font-family: 'Montserrat';
     font-style: bold;
     font-weight: 700;
-    src: url("./assets/fonts/Montserrat/static/Montserrat-Bold.ttf") format("ttf");
+    src: url("../assets/fonts/Montserrat/static/Montserrat-Bold.ttf") format("ttf");
 }
 
 @font-face {
     font-family: 'Montserrat';
     font-style: extrabold;
     font-weight: 800;
-    src: url("./assets/fonts/Montserrat/static/Montserrat-ExtraBold.ttf") format("ttf");
+    src: url("../assets/fonts/Montserrat/static/Montserrat-ExtraBold.ttf") format("ttf");
 }
 
 .root {
@@ -154,7 +154,7 @@
 .cover-container {
 
     padding: 0;
-    background-image: url(./assets/images/cover-min.png);
+    background-image: url(../assets/images/cover-min.png);
     background-size: contain;
     background-repeat: no-repeat;
     max-width: 1770px;
@@ -166,8 +166,8 @@
 .main-heading {
     margin: 0;
     padding: 70px 0 0 80px;
-    font-family: 'Montserrat';
-    font-style: normal;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-style: bold;
     font-weight: 800;
     font-size: 3em;
     line-height: 85px;
@@ -292,7 +292,7 @@
 }
 
 .worker {
-    background-image: url(./assets/images/worker.png);
+    background-image: url(../assets/images/worker.png);
     background-repeat: no-repeat;
     max-width: 868px;
     min-height: 622px;
