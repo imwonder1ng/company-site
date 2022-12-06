@@ -1,33 +1,32 @@
 @font-face {
-    font-family: 'Montserrat, Arial ';
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-style: regular;
     font-weight: 400;
-    src: url("../assets/fonts/Montserrat/static/Montserrat-Regular.ttf") format("ttf");
+    src: url("../assets/fonts/Montserrat/Montserrat-Regular.ttf") format('truetype');
 }
 
 @font-face {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-style: semibold;
     font-weight: 600;
-    src: url("../assets/fonts/Montserrat/static/Montserrat-SemiBold.ttf") format("ttf");
+    src: url("../assets/fonts/Montserrat/Montserrat-SemiBold.ttf") format('truetype');
 }
 
 @font-face {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-style: bold;
     font-weight: 700;
-    src: url("../assets/fonts/Montserrat/static/Montserrat-Bold.ttf") format("ttf");
+    src: url("../assets/fonts/Montserrat/Montserrat-Bold.ttf") format('truetype');
 }
 
 @font-face {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-style: extrabold;
     font-weight: 800;
-    src: url("../assets/fonts/Montserrat/static/Montserrat-ExtraBold.ttf") format("ttf");
+    src: url("../assets/fonts/Montserrat/Montserrat-ExtraBold.ttf") format('truetype');
 }
 
 .root {
-    font-family: 'Montserrat';
     margin: 0;
     padding: 0;
     max-width: 1920px;
@@ -38,7 +37,8 @@
 
 .content {
     max-width: 1770px;
-
+    margin: 0 75px 0 75px;
+    padding: 0;
 }
 
 .header {
@@ -147,12 +147,18 @@
 }
 
 .cover {
-    margin: 0;
+    margin: 0 0 50px 0;
     padding: 0;
+    background-image: url(../assets/images/cover-min.png);
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 18px;
+    max-width: 1770px;
+    min-height: 620px;
 }
 
 .cover-container {
-
     padding: 0;
     background-image: url(../assets/images/cover-min.png);
     background-size: contain;
@@ -167,12 +173,12 @@
     margin: 0;
     padding: 70px 0 0 80px;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    font-style: bold;
+    font-style: normal;
     font-weight: 800;
-    font-size: 3em;
+    font-size: 70px;
+    ;
     line-height: 85px;
     color: #FFFFFF;
-    font-family: 'Montserrat';
 }
 
 .heading-block {
@@ -182,7 +188,7 @@
 .subheading-cover {
     margin: 0 0 0 80px;
     padding: 0;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 1.2em;
@@ -196,22 +202,20 @@
 }
 
 .button {
-    margin: 0 0 0 65x;
+    margin: 0;
     max-width: 280px;
     min-height: 78px;
-
-    font-family: 'Montserrat';
+    background-color: transparent;
+    border: 0;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 23px;
     line-height: 28px;
     text-align: center;
-
-
 }
 
 .btn {
-
     text-decoration: none;
     background: #FF9900;
     border-radius: 16px;
@@ -228,7 +232,6 @@
     margin: 0;
     max-width: 85px;
     min-height: 15px;
-
     margin: 120px 0 0 600px;
 }
 
@@ -248,7 +251,7 @@
 }
 
 .about-heading {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 48px;
@@ -273,7 +276,7 @@
     margin: 0;
     width: 1235px;
     height: 192px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -338,6 +341,7 @@
 
 .cube-heading {
     margin: 0 0 8px 0;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     /* grid-column: 2/3;
     grid-row: 1/2; */
 }
@@ -352,7 +356,7 @@
     grid-row: 1/2;
     max-width: 450px;
     min-height: 128px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -381,6 +385,7 @@
 
 .gear-heading {
     margin: 0 0 8px 0;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     grid-column: -2/-1;
     grid-row: -2/-1;
 }
@@ -394,7 +399,7 @@
     grid-row: -2/-1;
     max-width: 450px;
     min-height: 128px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -415,7 +420,7 @@
     margin: 0 0 0 75px;
     width: 430px;
     height: 59px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 48px;
@@ -435,7 +440,7 @@
 
 .how-link {
     margin: 0 0 0 75px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -448,7 +453,7 @@
     margin: 0 0 8px 75px;
     max-width: 331px;
     min-height: 32px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -462,7 +467,7 @@
     margin: 0 25px 0 75px;
     max-width: 758px;
     min-height: 352px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -510,7 +515,7 @@
 
 .link-orange {
     text-decoration: none;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -521,19 +526,11 @@
 
 .link-white {
     text-decoration: none;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     text-align: center;
     color: #000000;
-
 }
-
-/* .btn-grid {
-    margin: 0;
-    display: grid;
-    grid-template-columns: ;
-    grid-template-rows: ;
-} */
